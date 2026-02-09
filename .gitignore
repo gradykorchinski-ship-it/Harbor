@@ -1,0 +1,44 @@
+# Harbor Core Repository - .gitignore
+
+# Dependencies & Build
+/target/
+Cargo.lock
+
+.vscode
+
+# Website & Documentation (Separate repositories)
+/Website/
+/docs/
+
+
+# VS Code Extension (Separate repository)
+/harbor-vscode/
+
+# Local Testing & Playground
+/Playground/
+/main.js
+/output.js
+/server.js
+/dev_output.js
+/harbor-dev.js
+/test_io.txt
+/*.js
+/*.txt
+
+# Binaries & Artifacts
+/harbor
+/harbor-1.0.0.vsix
+/harbor-v2.0.0-source.zip
+/*.vsix
+/*.zip
+
+# Media & Assets
+/*.png
+/*.webp
+
+# Editor & Tooling
+.agent/
+.vscode/
+.idea/
+.DS_Store
+*.log

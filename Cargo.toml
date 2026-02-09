@@ -1,0 +1,9 @@
+[package]
+name = "harbor"
+version = "2.0.0"
+edition = "2021"
+description = "Python-like language that compiles to Node.js"
+license = "MIT"
+repository = "https://github.com/stormyy00/harbor"
+
+[dependencies]
